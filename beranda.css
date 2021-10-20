@@ -1,0 +1,93 @@
+body {
+    overflow-x: hidden;
+}
+.jumbotron {
+    background-image: url(Foto/hd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 675px;
+    text-align: center;
+    margin-top: -40px;
+    border: bottom 10px solid black;
+}
+.jumbotron .lead {
+    color: white;
+}
+.jumbotron .display {
+    color: white;
+}
+.isi h2 {
+    text-align: center;
+}
+.isi h4 {
+    margin-left: 3%;
+}
+.isi p{
+    margin-right: 3%;
+    margin-left: 2%;
+}
+#Profile {
+    background-color:#0099ff ;
+    
+}
+.wisata h2 {
+    color: black;
+}
+.col-5 {
+    size: 20px;
+}
+.acordion tr, td {
+    padding: 10px 50px;
+    text-align: center;
+    padding-left: 5rem;
+}
+.keluarga h4 {
+    padding-left: 2rem;
+}
+.teman h4 {
+    padding-left: 2rem;
+}
+#Galery {
+    background-color:#0099ff ;
+}
+.biodata pre {
+    margin-left: 35%;
+}
+.botton {
+    padding-left: 3rem;
+}
+.footer {
+    background: #0d6efd;
+    height: auto;
+    width: 100vw;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.sosial {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 2rem;
+}
+.sosial img:hover {
+    color: white;
+}
+::-webkit-scrollbar {
+    position: absolute;
+    width: 20px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #0099ff;
+    border-radius: 20px;
+    border: 7px solid transparent;
+    background-clip: content-box;
+}

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+   background : #0b0a14;
+   min-height: 200vh; 
+   overflow-x: hidden;
+}
+nav a {
+    border-radius: 25px;
+}
+li:hover {
+    background: whitesmoke;
+    
+}
+.banner{
+    background: url(Wisata/banner.jpg) center;
+    color: white;
+    background-repeat: no-repeat;
+}
+.banner h2{
+    font-size: 100px;
+}
+.banner h3 {
+    font-size: 50px;
+}
+.surabaya h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Roboto";
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0d6efd, 0 0 30px #0d6efd, 0 0 40px #0d6efd, 0 0 55px #0d6efd, 0 0 75px #0d6efd;
+
+}
+.isi p {
+    color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.lokasi p {
+    color: white;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.lokasi h6 {
+    color: white;
+}
+.lokasi h5 {
+    color: white;
+    text-align: center;
+}
+.monumen h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Roboto";
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0d6efd, 0 0 30px #0d6efd, 0 0 40px #0d6efd, 0 0 55px #0d6efd, 0 0 75px #0d6efd;
+}
+.gambar p {
+    color: black;
+}
+.wisata h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: "Roboto";
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0d6efd, 0 0 30px #0d6efd, 0 0 40px #0d6efd, 0 0 55px #0d6efd, 0 0 75px #0d6efd;
+}
+.container h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: "Roboto";
+    color: #fff;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #0d6efd, 0 0 30px #0d6efd, 0 0 40px #0d6efd, 0 0 55px #0d6efd, 0 0 75px #0d6efd;
+
+}
+::-webkit-scrollbar {
+    position: absolute;
+    width: 20px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #cfd9df;
+    border-radius: 20px;
+    border: 7px solid transparent;
+    background-clip: content-box;
+}
+.footer {
+    background: #0d6efd;
+    height: auto;
+    width: 100vw;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.sosial {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 2rem;
+}
+.sosial img:hover {
+    color: white;
+}
